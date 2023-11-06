@@ -2,6 +2,7 @@
     session_start();
 
     date_default_timezone_set("America/Sao_Paulo");
+    
     ob_start(); //Limpa o buffer de redirecionamento
 
     define('URL', 'http://localhost/Projeto_2/');
