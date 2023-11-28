@@ -25,16 +25,13 @@
             //$test2->execRead('adms_usuarios','WHERE id=:id',':id=4');
             //var_dump($test2->getResultado());
        
-            $home = new StsHome(); //instancie  um objeto com o nome home da classe stshome
-            $this->Dados =  $home->index();//informe o indice ao atributo dados com o nome['sts_carousels] e atribua o objeto invocando o metodo index()
-
            
 
             
 
             
             
-            $carregarView = new ConfigView('home',$this->Dados);
+            $carregarView = new ConfigView('home');
             $carregarView->renderizar();
 
 

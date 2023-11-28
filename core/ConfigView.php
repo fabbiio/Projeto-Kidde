@@ -22,4 +22,16 @@ class ConfigView
         }
     }
 
+    public function renderizarLogin()
+    {
+        //include 'app/adms/Views/include/cabecalho.php';
+        if (file_exists('app/sts/Views/' . $this->Arquivo . '.php')) {
+            include_once 'app/sts/Views/include/cabecalho_login.php';
+            include_once 'app/sts/Views/'.$this->Arquivo . '.php';
+            include_once 'app/sts/Views/include/rodape_login.php';
+        }else{
+            echo "Erro ao carregar a Página: {$this->Arquivo}";
+        }
+    }
+
 }

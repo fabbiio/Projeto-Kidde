@@ -24,6 +24,9 @@
     <label for="" class="cadu">Nome:</label >
     <input class="cadi" type="text" name="nome" placeholder="Digite o Nome" required >
 
+        <label for="" class="cadu">E-mail:</label >
+        <input class="cadi" type="text" name="email" placeholder="Digite o E-mail" required >
+
     <label for="" class="cadu">Setor</label>
     <input class="cadi" type="text" name="setor" placeholder="Digite o Setor" required>
 

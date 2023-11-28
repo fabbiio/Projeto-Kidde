@@ -580,7 +580,62 @@ select{
     border: none;
     box-shadow: 0px 0px 5px lightgrey;
 }
-  
 
 /********************************************************************************************/
 
+.confirmar{
+    background-color: rgb(0, 255, 106);
+    border-radius: 7px;
+    color: white;
+    border: none;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 150px;
+    margin-left: 10px;
+}
+.confirmar:hover{
+    background-color: rgb(8, 139, 86);
+    cursor:pointer;
+
+}
+.volt1{
+    margin-left: 30px;
+    background-color: rgb(0, 255, 106);
+    border-radius: 7px;
+    color: white;
+    border: none;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 150px;  
+}
+.volt1 a{
+    color: white;
+    text-decoration: none;
+}
+.volt1:hover{
+    background-color: rgb(8, 139, 86);
+    cursor:pointer;
+}
+.volt1 a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+textarea{
+    box-shadow: 0px 0px 5px lightgrey;
+    border: none;
+    border-radius: 10px;
+   
+}
+
+/*****************************Modal***************************************************************/
+
+/**dialog::backdrop{
+    background-color: black;
+}
+**/
+dialog{
+    
+    background-color: green;
+    border-radius: .5rem;
+    border: none;
+    width: 500px;
+}

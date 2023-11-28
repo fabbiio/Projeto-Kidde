@@ -6,7 +6,7 @@
     class Cad_Lin
     {
         public function principal(){
-            $carregarView = new ConfigView('cad_lin');
+            $carregarView = new ConfigView('cadastrar_linha');
             $carregarView->renderizar();
         }
     }

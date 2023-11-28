@@ -10,9 +10,11 @@
     <link rel="stylesheet" href="<?php echo URL;?>/assets/css/bootstrap.css">
     <link rel="stylesheet" href="<?php echo URL;?>/assets/css/ionicons.min.css">
     <link rel="stylesheet" href="<?php echo URL;?>/assets/css/personalizado.css">
+    <link rel="script" href="../../Models/modal.js"/>
+    <link rel="icon" type="image/png" href="<?php echo URL;?>/assets/imagens/icone/favicon.ico"/>
     
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <title>Document</title>
+    <title>Projeto Kidde</title>
 </head>
 <body>
 

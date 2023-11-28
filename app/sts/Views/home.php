@@ -1,9 +1,6 @@
 <?php
 
-    foreach ($this->Dados as $topr){
-        $total_produtos =  $topr;
-        var_dump($total_produtos);
-    }
+  
 ?>
 
 
@@ -17,6 +14,7 @@
 
 
 </div>
+<br><br><br><br><br><br><br><br>
 
 <div class="cardBox">
         <div class="card">

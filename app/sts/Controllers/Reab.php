@@ -4,6 +4,7 @@ use Core\ConfigView;
 use Sts\Models\StsItemConsulta;
 use Sts\Models\StsReabConsulta;
 
+
     class Reab{
         
         private $Dados;
@@ -13,8 +14,7 @@ use Sts\Models\StsReabConsulta;
                 $this->Dados['dados'] =  $con->consulta();
 
                 $con = new StsItemConsulta(); //instancie  um objeto com o nome home da classe stshome
-                $this->Dados['itens'] =  $con->consulta();
-
+                $this->Dados['itens'] =  $con->consulta();  
 
                 $carregarView = new ConfigView('reab',$this->Dados);
                 $carregarView->renderizar();

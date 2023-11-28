@@ -9,8 +9,8 @@ class ComposerStaticInit657c5454a6a41dfb3b0cc22aa5b8e38a
     public static $prefixLengthsPsr4 = array (
         'A' => 
         array (
-            'AdmAdmSts\\' => 7,
-            'AdmAdmCore\\' => 8,
+            'AdmAdmSts\\' => 10,
+            'AdmAdmCore\\' => 11,
         ),
     );
 

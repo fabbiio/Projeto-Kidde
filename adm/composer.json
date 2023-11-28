@@ -9,8 +9,8 @@
   ],
   "autoload": {
     "psr-4": {
-      "AdmAdmCore\\" : "core",
-      "AdmAdmSts\\" : "app/sts"
+      "AdmCore\\" : "core",
+      "AdmSts\\" : "app/sts"
       
     }
   }

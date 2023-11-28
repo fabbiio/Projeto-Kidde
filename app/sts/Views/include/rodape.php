@@ -8,6 +8,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="<?php echo URL;?>assets/js/bootstrap.min.js"></script>
 <script src="<?php echo URL;?>assets/js/scrollreveal.min.js"></script>
+<script src="<?php echo URL;?>assets/js/modal.js"></script>
 
 <script>
     window.sr = ScrollReveal({ reset: true });

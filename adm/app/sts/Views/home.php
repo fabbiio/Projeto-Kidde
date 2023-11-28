@@ -1,9 +1,3 @@
-<?php
-
-    foreach ($this->Dados as $topr){
-        $total_produtos =  $topr['qtd_produtos'] ;
-    }
-?>
 
 
 <div class="title">
